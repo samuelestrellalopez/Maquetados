@@ -1,2 +1,3 @@
 # Maquetados
-# ESTA ES MI PRIMER modificacion 
+#Practica 2
+# Maquetado 1 y 2
