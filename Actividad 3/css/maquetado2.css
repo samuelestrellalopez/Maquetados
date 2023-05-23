@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/895/305/small/abstract-gradient-background-with-green-and-blue-colors-gradient-backgrounds-for-wallpapers-posters-flyers-banners-flyers-and-more-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 200%;
+
+}
+.seccion{
+
+    width: 650px;
+    height: 1000px;
+    background: #a4d1516b;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px rgba(255, 255, 255, 0.227) solid;
+    background-position: cover;
+   
+
+}
+.mapa{
+
+    margin-bottom: 20px;
+
+}
+.datos{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(16, 68, 15);
+    display: flex;
+    justify-content: center;
+
+
+}
+.form{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(21, 19, 20);
+    display: flex;
+
+
+}
+
+.formulario{
+
+    padding: 20px;
+    margin-top: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(10, 130, 26);
+
+}
+.controls{
+    width: 100%;
+    background-color: rgba(78, 48, 9, 0);
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border: 2px solid #104102d3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22pxs;
+    color: rgb(0, 0, 0);
+    
+}
+.botons{
+
+    width: 100%;
+    background: #f6faf6;
+    border: #0cbb2300;
+    padding: 8px;
+    margin: 15px 0;
+    box-shadow: 7px 5px rgba(59, 56, 55, 0.473);
+
+}
+

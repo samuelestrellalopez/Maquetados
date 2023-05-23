@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+    margin: auto;
+    width: 1000px;
+    height: 1500px;
+
+}
+.mif{
+
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+#principal{
+
+    width: 1000px;
+    height: 1360px;
+    background: #282b85c7;
+    padding: 5px;
+    border-radius: 10px;
+    border: 5px rgb(186, 182, 168) solid;
+    background-position: cover;
+    
+
+
+}
+.Datos{
+
+    background: #9f9b9b;
+    margin-bottom: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(103, 2, 22);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+    
+    
+}
+.recibe{
+
+    background: #9f9b9b7a;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+.psc{
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; width: 1000px;
+
+}
+.tex{
+
+    margin-top: 50px;
+}
+.let{
+
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(6, 9, 69);
+    display: flex;
+    justify-content: center;
+
+
+}
+.Dato
+{
+    background: #9f9b9b;
+    margin-bottom: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: rgb(43, 95, 145);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+
+
+}
+
