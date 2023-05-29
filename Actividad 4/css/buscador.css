@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+header{
+    display: flex;
+    height: 60px;
+    justify-content: end;
+    padding: 0 12px;
+
+}
+.options{
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bot{
+    display: flex;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+main{
+
+    display: flex;
+    justify-content: center;
+
+
+}
+.boogle{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;    
+    margin-bottom: 50px;
+    font-size: 100px;    
+    color: #171452cb;
+
+font-family: cursive;
+}
+.busc{
+
+    width: 700px;
+    height: 40px;
+    padding: 4px 8px;
+    border: 1px solid rgb(173, 174, 174);
+    border-radius: 24px;
+    background-color: #f1f3f4;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    margin-left: 200px;
+}
+.conf{
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    
+}
+.short{
+    display: flex;
+    justify-content: center;
+
+}
+.dat{
+
+    margin-left: 15px;
+    margin-top: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000; 
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.716);
+
+
+}
+.confg{
+
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 955px;
+}
+
+
+.short2{
+
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-end;
+    justify-content: center;
+    height: 50%;
+    
+}
+.clase1{
+
+  
+    
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-end;
+    justify-content: center;
+}
