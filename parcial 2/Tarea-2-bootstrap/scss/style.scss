@@ -1,0 +1,47 @@
+$font-family-sans-serif:'Barlow Semi Condensed', sans-serif;
+
+$success:#733FC8;
+$primary:#49556B;
+$light:#EDF2F8;
+$danger:#18202D;
+$warning:#EDF2F8;
+
+@media (min-width: 992px){
+    .alto-100´{
+
+        height: 100vh;
+}
+}
+.d-flex img{
+
+    width: 50px;
+}
+.fondo-card{
+
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position: 85% top;
+}
+
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 960px,
+    xxl: 960px
+
+);
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+/*main{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
