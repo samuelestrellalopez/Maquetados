@@ -1,0 +1,136 @@
+body{
+
+    background-image: url('/ucm-marvel-studios-2700107.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+
+h1{
+    text-align: center;
+    margin-top: -20px;
+    color: #430404;
+}
+
+
+ul{
+    list-style-type: none;
+    background-color: #430404;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 17px;
+    text-decoration: none;
+}
+img.img-thumbnail{
+
+    width: 500px;
+    height: 500px;
+}
+h3{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(140, 6, 6);
+    font-size: x-large;
+    height: 100px;
+}
+
+.modal-body{
+
+    height: 400px;
+}
+
+
+
+.description-modal-body {
+    max-height: 400px; /* Ajusta esta altura según tus necesidades */
+    overflow-y: auto;
+}
+
+
+  
+
+
+.modal-title {
+    margin-bottom: 10px;
+  }
+  
+  .modal-body p {
+    margin-bottom: 5px;
+  }
+  
+  .isbn {
+    margin-top: 10px;
+  }
+  
+.imag{
+justify-content: center;
+display: flex;
+}
+
+
+.fixed-image {
+    min-zoom: 3px;
+    width:  100%; /* Establece el ancho deseado para la imagen */
+   height: 50%; /* Establece la altura deseada para la imagen */
+   margin-top: -18px;
+   margin-bottom: 10px;
+
+
+
+
+  }
+  .fixed-images {
+    min-zoom: 3px;
+    width:  50%; /* Establece el ancho deseado para la imagen */
+   height: 20%; /* Establece la altura deseada para la imagen */
+   margin-top: -18px;
+   margin-bottom: 10px;
+   
+
+
+
+
+  }
+  
+.logo{
+
+    min-zoom: 3px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 150vh;
+   margin: 0;   
+   margin-top: -38%;
+   margin-bottom: -18%;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: rgb(246, 246, 246);
+   font-size: 500%;
+
+
+
+
+   
+
+   
+}
+
+
+
+
+
+
+
+
+
+
