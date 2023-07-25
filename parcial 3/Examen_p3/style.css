@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    margin: 0 50px;
+    background-color: #5baef351;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: cursive;
+
+}
+  
+  .app {
+    background-color: #90b0d392;
+    width: 500px;
+    height: 500px;
+    border: 5px solid #13033d;
+    border-radius: 8px;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+
+
+  
+  
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(135, 113, 220, 0.464);
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+  
+  .fa-plus {
+    background-color: #f8f8f8;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #tasks div {
+    border: 3px solid #13033d;
+    background-color: #939ad986;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+  }
+  
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: rgb(125, 25, 25);
+  }
+  .modal {
+
+background-color: rgba(0, 0, 0, 0.851);
+
+  }
+  .modal-header{
+
+    background: #a2a2c9b5;
+  }
+  .modal-footer{
+
+    background: #a2a2c9b5;
+
+  }
