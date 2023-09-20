@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salex\\source\\repos\\WinFormsApp6\\WinFormsApp6\\WinFormsApp6.csproj",
+      "projectUniqueName": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\WinFormsApp6.csproj",
       "projectName": "WinFormsApp6",
-      "projectPath": "C:\\Users\\salex\\source\\repos\\WinFormsApp6\\WinFormsApp6\\WinFormsApp6.csproj",
+      "projectPath": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\WinFormsApp6.csproj",
       "packagesPath": "C:\\Users\\salex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salex\\source\\repos\\WinFormsApp6\\WinFormsApp6\\obj\\",
+      "outputPath": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\salex\\AppData\\Roaming\\NuGet\\NuGet.Config",

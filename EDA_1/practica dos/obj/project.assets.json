@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\salex\\Documents\\EDA 1\\c#\\c#.csproj",
+      "projectUniqueName": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj",
       "projectName": "c#",
-      "projectPath": "C:\\Users\\salex\\Documents\\EDA 1\\c#\\c#.csproj",
+      "projectPath": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj",
       "packagesPath": "C:\\Users\\salex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\salex\\Documents\\EDA 1\\c#\\obj\\",
+      "outputPath": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\salex\\AppData\\Roaming\\NuGet\\NuGet.Config",
