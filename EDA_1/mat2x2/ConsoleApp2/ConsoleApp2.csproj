@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="C:\Users\salex\Documents\EDA 1\c#code\cerosmatrices.cs" Link="cerosmatrices.cs" />
+    <Compile Include="C:\Users\salex\Documents\EDA 1\c#code\cerosmatricess.cs" Link="cerosmatricess.cs" />
+  </ItemGroup>
+
+</Project>
