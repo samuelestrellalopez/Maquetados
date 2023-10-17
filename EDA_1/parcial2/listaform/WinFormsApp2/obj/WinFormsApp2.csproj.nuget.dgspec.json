@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\WinFormsApp6.csproj": {}
+    "C:\\Users\\salex\\Documents\\EDA 1\\listaform\\WinFormsApp2\\WinFormsApp2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\WinFormsApp6.csproj": {
+    "C:\\Users\\salex\\Documents\\EDA 1\\listaform\\WinFormsApp2\\WinFormsApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\WinFormsApp6.csproj",
-        "projectName": "WinFormsApp6",
-        "projectPath": "C:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\WinFormsApp6.csproj",
+        "projectUniqueName": "C:\\Users\\salex\\Documents\\EDA 1\\listaform\\WinFormsApp2\\WinFormsApp2.csproj",
+        "projectName": "WinFormsApp2",
+        "projectPath": "C:\\Users\\salex\\Documents\\EDA 1\\listaform\\WinFormsApp2\\WinFormsApp2.csproj",
         "packagesPath": "C:\\Users\\salex\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\salex\\Documents\\repo\\EDA_1\\WinFormsApp6\\obj\\",
+        "outputPath": "C:\\Users\\salex\\Documents\\EDA 1\\listaform\\WinFormsApp2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\salex\\AppData\\Roaming\\NuGet\\NuGet.Config",

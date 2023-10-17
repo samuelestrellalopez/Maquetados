@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj": {}
+    "C:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj": {}
   },
   "projects": {
-    "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj": {
+    "C:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj",
+        "projectUniqueName": "C:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj",
         "projectName": "c#",
-        "projectPath": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj",
+        "projectPath": "C:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\c#.csproj",
         "packagesPath": "C:\\Users\\salex\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\obj\\",
+        "outputPath": "C:\\Users\\salex\\Documents\\repo\\EDA_1\\practica dos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\salex\\AppData\\Roaming\\NuGet\\NuGet.Config",
