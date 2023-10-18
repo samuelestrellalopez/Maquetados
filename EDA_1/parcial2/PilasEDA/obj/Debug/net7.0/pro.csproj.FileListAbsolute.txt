@@ -1,0 +1,43 @@
+C:\Users\josda\OneDrive\Escritorio\pro\bin\Debug\net7.0\pro.exe
+C:\Users\josda\OneDrive\Escritorio\pro\bin\Debug\net7.0\pro.deps.json
+C:\Users\josda\OneDrive\Escritorio\pro\bin\Debug\net7.0\pro.runtimeconfig.json
+C:\Users\josda\OneDrive\Escritorio\pro\bin\Debug\net7.0\pro.dll
+C:\Users\josda\OneDrive\Escritorio\pro\bin\Debug\net7.0\pro.pdb
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.AssemblyInfoInputs.cache
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.AssemblyInfo.cs
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.csproj.CoreCompileInputs.cache
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.dll
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\refint\pro.dll
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.pdb
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\pro.genruntimeconfig.cache
+C:\Users\josda\OneDrive\Escritorio\pro\obj\Debug\net7.0\ref\pro.dll
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\bin\Debug\net7.0\pro.exe
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\bin\Debug\net7.0\pro.deps.json
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\bin\Debug\net7.0\pro.runtimeconfig.json
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\bin\Debug\net7.0\pro.dll
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\bin\Debug\net7.0\pro.pdb
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.AssemblyInfoInputs.cache
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.AssemblyInfo.cs
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.csproj.CoreCompileInputs.cache
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.dll
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\refint\pro.dll
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.pdb
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\pro.genruntimeconfig.cache
+C:\Users\Jacobo Gonzalez\Documents\UTM\Cuarto Cuatrimestre\Estructura de datos Aplicadas\Parcial 2\pro\obj\Debug\net7.0\ref\pro.dll
+C:\Users\salex\Documents\Codigo Pilas\bin\Debug\net7.0\pro.exe
+C:\Users\salex\Documents\Codigo Pilas\bin\Debug\net7.0\pro.deps.json
+C:\Users\salex\Documents\Codigo Pilas\bin\Debug\net7.0\pro.runtimeconfig.json
+C:\Users\salex\Documents\Codigo Pilas\bin\Debug\net7.0\pro.dll
+C:\Users\salex\Documents\Codigo Pilas\bin\Debug\net7.0\pro.pdb
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.csproj.AssemblyReference.cache
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.AssemblyInfoInputs.cache
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.AssemblyInfo.cs
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.csproj.CoreCompileInputs.cache
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.dll
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\refint\pro.dll
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.pdb
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\pro.genruntimeconfig.cache
+C:\Users\salex\Documents\Codigo Pilas\obj\Debug\net7.0\ref\pro.dll
