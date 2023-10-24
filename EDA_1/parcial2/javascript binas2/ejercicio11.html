@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Juego Pintar Coches</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego Pintar Coches</h1>
+        <p>Carro a pintar (el primero de la cola)</p>
+        <div id="carToPaint">
+            <img src="placeholder.png" alt="Car" id="carImage">
+            <p id="carText"></p>
+        </div>
+        <p>Carros encolados (Todos los demás carros)</p>
+        <div id="carQueue" class="d-flex">
+            <!-- Carros en la cola se agregarán aquí en horizontal -->
+        </div>
+        <p>Carro atendido</p>
+        <div id="carPainted">
+            <img src="placeholder.png" alt="Car" id="carPaintedImage">
+            <p id="carPaintedText">Ningún carro atendido aún</p>
+        </div>
+        <div id="score">Puntuación: 0</div>
+        <div class="row">
+            <!-- Botones de colores con estilos en línea -->
+            <div class="col-2">
+                <button style="background-color: red; color: white;" onclick="paintCar('Rojo')">Rojo</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: green; color: white;" onclick="paintCar('Verde')">Verde</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: yellow;" onclick="paintCar('Amarillo')">Amarillo</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: blue; color: white;" onclick="paintCar('Azul')">Azul</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: black; color: white;" onclick="paintCar('Negro')">Negro</button>
+            </div>
+            <div class="col-2">
+                    <button style="background-color: violet; color: white;" onclick="paintCar('Violeta')">Violeta</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: orange;" onclick="paintCar('Naranja')">Naranja</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: purple; color: white;" onclick="paintCar('Morado')">Morado</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: pink; color: white;" onclick="paintCar('Rosa')">Rosa</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: cyan; color: white;" onclick="paintCar('Cyan')">Cyan</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: brown;" onclick="paintCar('Marron')">Marrón</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: silver;" onclick="paintCar('Plateado')">Plateado</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: gold;" onclick="paintCar('Dorado')">Dorado</button>
+            </div>
+            <div class="col-2">
+                <button style="background-color: turquoise;" onclick="paintCar('Turquesa')">Turquesa</button>
+            </div>
+
+            
+        </div>
+        <br>
+        <a href="hola.html" class="btn btn-secondary">Volver al Menú</a>
+    </div>
+
+    <script>
+        // Variables para el juego
+        let carQueue = [];
+        let carsPainted = 0;
+        let totalCarsToPaint = 10;
+        let colors = ['Rojo', 'Verde', 'Amarillo', 'Azul', 'Negro', 'Naranja', 'Violeta', 'Morado', 'Rosa', 'Cyan', 'Marron', 'Plateado', 'Dorado', 'Turquesa'];
+        let record = 0;
+
+        function getRandomColor() {
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function paintCar(color) {
+            const car = carQueue[0];
+            if (car && car.color === color) {
+                carQueue.shift();
+                car.color = color;
+                carsPainted++;
+                updateCarQueue();
+                updateCarToPaint();
+                updateCarPainted(car);
+
+                // Actualizar puntuación y récord
+                record += 100;
+                showScore();
+
+                if (carsPainted >= totalCarsToPaint) {
+                    alert(`¡Juego terminado! Pintaste ${carsPainted} carros.`);
+                } else if (carsPainted === 5) {
+                    clearInterval(carInterval);
+                    carInterval = setInterval(enqueueCar, 10000);
+                }
+            } else {
+                alert("¡Color incorrecto!");
+            }
+        }
+
+        function updateCarQueue() {
+            const carQueueDiv = document.getElementById('carQueue');
+            carQueueDiv.innerHTML = '';
+            for (let i = 1; i < carQueue.length; i++) {
+                const car = carQueue[i];
+                const carDiv = document.createElement('div');
+                carDiv.innerHTML = `
+                    <div>
+                        <img src="recursos/placeholder.png" alt="Car" width="80" height="80">
+                        <p>${car.color ? car.color : ''}</p>
+                    </div>`;
+                carQueueDiv.appendChild(carDiv);
+            }
+        }
+
+        function updateCarToPaint() {
+            const carToPaintDiv = document.getElementById('carToPaint');
+            if (carQueue.length > 0) {
+                carToPaintDiv.innerHTML = `
+                    <img src="recursos/placeholder.png" alt="Car" id="carImage" width="80" height="80">
+                    <p id="carText">${carQueue[0].color ? carQueue[0].color : ''}</p>`;
+            } else {
+                carToPaintDiv.innerHTML = 'No hay carros encolados.';
+            }
+        }
+
+        function updateCarPainted(car) {
+            const carPaintedDiv = document.getElementById('carPainted');
+            const carImage = document.getElementById('carPaintedImage');
+            if (car.color) {
+                carImage.src = `recursos/coche${car.color.toLowerCase()}.png`;
+            } else {
+                carImage.src = "recursos/placeholder.png";
+            }
+            carImage.width = 80;
+            carImage.height = 80;
+            document.getElementById('carPaintedText').innerText = car.color ? `Último carro atendido: ${car.color}` : 'Ningún carro atendido aún';
+        }
+
+        function enqueueCar() {
+            if (carQueue.length < 5) {
+                carQueue.push({ color: getRandomColor() });
+                updateCarQueue();
+                if (carQueue.length === 1) {
+                    updateCarToPaint();
+                }
+            } else {
+                alert("Perdiste. Hay 5 o más carros encolados.");
+                resetGame();
+            }
+        }
+
+        function showScore() {
+            document.getElementById('score').innerText = `Puntuación: ${record}`;
+        }
+
+        function resetGame() {
+            carQueue = [];
+            carsPainted = 0;
+            record = 0;
+            clearInterval(carInterval);
+            carInterval = setInterval(enqueueCar, 5000);
+            enqueueCar();
+            showScore();
+            updateCarQueue();
+            updateCarToPaint();
+            updateCarPainted({}); // Limpiar el último carro atendido
+        }
+
+        // Iniciar el juego con un temporizador para agregar carros
+        let carInterval = setInterval(enqueueCar, 5000);
+        enqueueCar(); // Agregar un carro inicial
+    </script>
+</body>
+</html>

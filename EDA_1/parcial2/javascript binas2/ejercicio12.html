@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Estacionamiento de Autos</title>
+    <!-- Agregar referencia a Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            text-align: center;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-4">
+        <h1>Estacionamiento de Autos</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Propietario</th>
+                    <th>Placas</th>
+                </tr>
+            </thead>
+            <tbody id="autosTable"></tbody>
+        </table>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="propietarioTextBox">Propietario del auto:</label>
+                <input type="text" class="form-control" id="propietarioTextBox">
+            </div>
+            <div class="form-group col-md-6">
+                <label for="placasTextBox">Placas del auto:</label>
+                <input type="text" class="form-control" id="placasTextBox" maxlength="7">
+            </div>
+        </div>
+        <button class="btn btn-primary" id="entradaAutoButton">Entrada</button>
+        <button class="btn btn-danger" id="salidaAutoButton">Salida</button>
+        <br>
+        <br>
+        <a href="hola.html" onclick="volverAlMenu()" class="btn btn-secondary">Volver al Menú</a>
+    </div>
+
+    <!-- Agregar referencia a Bootstrap JS (opcional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        var colaAutos = [];
+        var autosTable = document.getElementById('autosTable');
+        var propietarioTextBox = document.getElementById('propietarioTextBox');
+        var placasTextBox = document.getElementById('placasTextBox');
+        var entradaAutoButton = document.getElementById('entradaAutoButton');
+        var salidaAutoButton = document.getElementById('salidaAutoButton');
+
+        entradaAutoButton.addEventListener('click', function () {
+            var propietario = propietarioTextBox.value;
+            var placas = placasTextBox.value;
+
+            // Validación de placas
+            var placasValidas = /^[A-Za-z0-9]{1,7}$/.test(placas);
+            if (!placasValidas) {
+                alert("Placas no válidas. Deben contener solo letras y números");
+                return;
+            }
+
+            // Validación de propietario
+            if (propietario.trim() === "" || /\d/.test(propietario)) {
+                alert("El propietario no puede estar vacío y no puede contener números.");
+                return;
+            }
+
+            // Verificar si la placa ya está en la lista
+            if (PlacaYaRegistrada(placas)) {
+                alert("Esta placa ya está registrada.");
+                return;
+            }
+
+            var auto = {
+                Propietario: propietario,
+                Placas: placas,
+                HoraEntrada: new Date()
+            };
+
+            colaAutos.push(auto);
+            AddRowToTable(auto);
+            alert("Entrada registrada con éxito.");
+        });
+
+        salidaAutoButton.addEventListener('click', function () {
+            if (colaAutos.length === 0) {
+                alert("El estacionamiento está vacío.");
+                return;
+            }
+
+            var autoSalida = colaAutos.shift();
+
+            var horaSalida = new Date();
+            var tiempoEstacionado = horaSalida - autoSalida.HoraEntrada;
+            var costo = tiempoEstacionado / 1000 * 2;
+
+            RemoveRowFromTable(autoSalida);
+            alert("Propietario: " + autoSalida.Propietario + "\nPlacas: " + autoSalida.Placas + "\nHora de Entrada: " + autoSalida.HoraEntrada + "\nHora de Salida: " + horaSalida + "\nCosto: $" + costo);
+        });
+
+        function PlacaYaRegistrada(placas) {
+            for (var i = 0; i < colaAutos.length; i++) {
+                if (colaAutos[i].Placas === placas) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        function AddRowToTable(auto) {
+            var newRow = autosTable.insertRow(autosTable.rows.length);
+            var cell1 = newRow.insertCell(0);
+            var cell2 = newRow.insertCell(1);
+            cell1.innerHTML = auto.Propietario;
+            cell2.innerHTML = auto.Placas;
+        }
+
+        function RemoveRowFromTable(auto) {
+            for (var i = 0; i < autosTable.rows.length; i++) {
+                if (autosTable.rows[i].cells[1].innerHTML === auto.Placas) {
+                    autosTable.deleteRow(i);
+                    break;
+                }
+            }
+        }
+
+        function volverAlMenu() {
+            // Redirigir al menú principal
+            window.location.href = 'menu.html'; // Reemplaza 'menu.html' con la URL correcta del menú principal.
+        }
+    </script>
+</body>
+
+</html>
